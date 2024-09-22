@@ -35,14 +35,14 @@ const Header = () => {
     ];
 
     return (
-        <header className="shadow bg-purple-500 h-20">
+        <header className="shadow bg-blue-500 h-20">
             <Container>
                 <nav className="flex h-full">
                     <div className="mr-4 h-full flex items-center justify-center">
                         <Link to="/">
                             <Logo
                                 width="70px"
-                                className=" p-2 rounded hover:bg-purple-300 transition-colors duration-200 ease-in"
+                                className=" p-2 rounded hover:bg-blue-300 transition-colors duration-200 ease-in"
                             />
                         </Link>
                     </div>
@@ -53,7 +53,7 @@ const Header = () => {
                                     <NavLink
                                         to={item.slug}
                                         className={({ isActive }) =>
-                                            `h-full px-4 flex justify-center items-center hover:bg-purple-300 transition-colors duration-200 ease-in
+                                            `h-full px-4 flex justify-center items-center hover:bg-blue-300 transition-colors duration-200 ease-in
                                             ${
                                                 isActive
                                                     ? "bg-purple-300 font-medium text-purple-950"

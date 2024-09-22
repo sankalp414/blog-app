@@ -25,7 +25,7 @@ const Home = () => {
                             </h1>
                             <Link
                                 to="/login"
-                                className="block mt-6 text-lg bg-purple-400 w-max py-4 px-6 rounded-md hover:bg-purple-500 duration-200 ease-out"
+                                className="block mt-6 text-lg bg-yellow-400 w-max py-4 px-6 rounded-md hover:bg-purple-500 duration-200 ease-out"
                             >
                                 Login
                             </Link>
@@ -41,7 +41,7 @@ const Home = () => {
                     <h1 className="text-2xl font-bold">No post to read.</h1>
                     <Link
                         to="/add-post"
-                        className="block mt-6 text-lg bg-purple-400 w-max py-4 px-6 rounded-md hover:bg-purple-500 duration-200 ease-out"
+                        className="block mt-6 text-lg bg-yellow-400 w-max py-4 px-6 rounded-md hover:bg-purple-500 duration-200 ease-out"
                     >
                         Add New Post
                     </Link>
